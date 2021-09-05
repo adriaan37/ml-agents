@@ -71,6 +71,11 @@ public class Bird : Agent
             AddReward(minusReward);
             EndEpisode();
         }
+        if(other.tag == "Floor")
+        {
+            AddReward(minusReward);
+            EndEpisode();
+        }
         
     }
 

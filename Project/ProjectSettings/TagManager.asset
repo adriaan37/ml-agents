@@ -41,6 +41,7 @@ TagManager:
   - plus
   - Enemy
   - Pipe
+  - Floor
   layers:
   - Default
   - TransparentFX
